@@ -1,0 +1,51 @@
+.contenedorContacto{
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif; 
+        color: $color-letra-principal;
+ }
+
+.contenedorContactoMail {
+        @extend .contenedorContacto;
+        justify-content: space-between;
+    
+}
+.contenedorContactoNombre {
+        @extend .contenedorContacto;
+        justify-content: space-between;
+}
+.contenedorContactoTexto {
+        @extend .contenedorContacto;
+        width: 10rem;
+        padding-right: 118px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+
+}
+.textoContacto {
+        @extend .contenedorContacto;
+        padding-left: 117px;
+        text-decoration: underline;
+        font-size: 1.5rem;
+        padding-top: 1px;
+}
+.textArea {
+    width: 30rem;
+    height: auto;
+}
+.formularioSubmit {
+    color: $color-letra-principal;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    padding-top: 4px;
+}
+.contenedorFormulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-right: 20px;
+}

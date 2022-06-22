@@ -8,41 +8,31 @@
     <title>Desafio</title>
 </head>
 <body>
-    <h1>CONTACTO</h1>
-     <hr>
-     <form action="" method="get" enctype="text/plain">
-        <div>
-            <label for="UserName">Nombre</label>      
-            <input type="text" name="UserName" id="UserName"
-                </div> 
-                <div>    
-            <label for="usermail">Mail</label>
-            <input type="email" name="usermail" id="usermail" required="usermail"
-                </div>
-                <div>
-            <label for="usertext">Ingrese su texto
-                <textarea name="usertext" id="usertext" cols="30" rows="10" name="usertext"></textarea>  
-                </div>
-                <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar formulario">
-                </div>
-                 <div>
-                    <label for="UserEstadoCivil">Estado Civil</label>        
-                    <select name="Estado Civil" id="UserEstadoCivil">
-                    <option value="Elige tu estado civil" disabled selected="">Elige tu</option>
-                    <option value="Casado">Casado</option>
-                    <option value="Soltero">Soltero</option>
-                    <option value="Viudo">Viudo</option>
-                </div>
-                <div>
-                    <label for="">Aceptar condiciones</label>
-                 <input type="checkbox" name="" id="" value="0"> Aceptar Terminos y condiciones  
-                 <input type="checkbox" name="" id="" value="1"> No Aceptar
-                </div>
-                
-                 
-            
+    <h1 class="titulo">Contacto.</h1>
+       <hr>
+      <a class="link-menu"href="./INICIO.html"><li>INICIO</li></a>
+          <a class="link-menu"href="./PERSONAL.HTML"><li>PERSONAL</li></a>
+          <a class="link-menu"href="./EVENTOS.HTML"><li>EVENTOS</li></a>
+          <a class="link-menu"href="./ESPECIALIDADES.html"><li>ESPECIALIDADES</li></a>
+        <hr>
+    <h2 class="subtitulo">Hace tu reserva.</h2>
+      <div class="contenedorContacto">
+            <form action="" method="get" enctype="text/plain">
+            <label class="contenedorContactoNombre"for="UserName">Titular de la reserva</label>      
+            <input type="text" name="UserName" id="UserName">
+            <label class="contenedorContactoMail" for="usermail">Mail de contacto</label>
+            <input type="email" name="usermail" id="usermail" required="usermail">    
+      </div>
+      <div class="contenedorContacto">
+            <label class="contenedorContactoTexto" for="usertext"> <p class="textoContacto">Especificaciones</p> 
+       </div>
+       <div class="contenedorContacto">
+                    <textarea class="textArea" name="usertext" cols="30" rows="10" name="usertext"></textarea>  
+       </div>
+       <div class="contenedorFormulario">
+        <input class="formularioSubmit" type="submit" value="Enviar Reserva">
+        <input class="formularioSubmit" type="reset" value="Limpiar Formulario">
+       </div>          
     
 </body>
 </html>

@@ -80,11 +80,11 @@ ul {
   padding: 1px 0px; }
 
 .img-restaurante {
-  width: 1340px;
+  width: 100%;
   height: 360px; }
 
 .img-restaurante-div {
-  width: 1340px;
+  width: 100%;
   height: 360px; }
 
 .img-restaurante-div:hover {
@@ -131,38 +131,110 @@ ul {
   justify-content: center;
   padding: 50px; }
 
-.grid-layout {
+.video-yt-border {
+  border: solid black 2px; }
+
+#grid-layout {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
-  height: 550px;
-  justify-content: stretch;
-  margin: 0px 120px;
-  border: 1px solid black;
-  background-color: #e0a5a5; }
+  grid-template-areas: "menu"  "almuerzo" "cena" "postre";
+  grid-template-columns: 20% 75%;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+  row-gap: -1%; }
 
-.caja {
-  line-height: 150px;
-  text-align: center;
-  background-color: indianred;
-  border: 1px solid black; }
+.menu {
+  display: inline-flex;
+  grid-area: menu;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 8rem;
+  border: black solid 2px;
+  background-color: #fffd82;
+  margin-left: 9rem;
+  font-size: 2rem;
+  font-family: 'Charis SIL', serif;
+  padding-left: 1rem; }
 
-.c1 {
-  grid-column: 1 / 4;
-  font-size: 50px;
-  text-align: center; }
+.menu-1 {
+  border: black solid 2px;
+  background-color: #faf5a9;
+  margin-left: 5.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
 
-.c2 {
-  font-size: 40px;
-  text-align: center; }
+.almuerzo {
+  display: inline-flex;
+  grid-area: almuerzo;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 8rem;
+  border: black solid 2px;
+  background-color: #fffd82;
+  margin-left: 9rem;
+  font-family: 'Charis SIL', serif;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
 
-.c3 {
-  font-size: 40px;
-  text-align: center; }
+.almuerzo-1 {
+  border: black solid 2px;
+  background-color: #faf5a9;
+  margin-left: 5.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
 
-.c4 {
-  font-size: 40px;
-  text-align: center; }
+.cena {
+  grid-area: cena;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 8rem;
+  border: black solid 2px;
+  background-color: #fffd82;
+  margin-left: 9rem;
+  font-family: 'Charis SIL', serif;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+
+.cena-1 {
+  border: black solid 2px;
+  background-color: #faf5a9;
+  margin-left: 5.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; }
+
+.postre {
+  grid-area: postre;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 8rem;
+  border: black solid 2px;
+  background-color: #fffd82;
+  margin-left: 9rem;
+  font-family: 'Charis SIL', serif;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+
+.postre-1 {
+  border: black solid 2px;
+  margin-left: 5.1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf5a9; }
+
+.p-grid-1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  font-family: 'Charis SIL', serif; }
 
 #personal {
   text-align: center;
@@ -170,3 +242,236 @@ ul {
   color: crimson;
   font-size: 60px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+/*RESPONSIVE*/
+/*celular*/
+@media only screen and (max-width: 480px) {
+  /*Inicio*/
+  .h1 {
+    font-size: 3rem; }
+  .h2 {
+    font-size: 2rem; }
+  .img-restaurante {
+    width: 100%; }
+  .img-restaurante-div {
+    width: 100%;
+    height: 360px; }
+  .img-restaurante-div:hover {
+    height: 350px;
+    width: 100%;
+    border: solid 0px black; }
+  /*Personal*/
+  .p-1 {
+    font-size: 0.7rem; }
+  .flex-img {
+    width: 45%;
+    height: 190px; }
+  /*Eventos*/
+  .video-yt {
+    width: 55%;
+    margin-left: 25px; }
+  .p-video {
+    font-size: 0.8rem;
+    margin-bottom: 40px; }
+  .video-yt-border {
+    border: solid black 0px; }
+  /*Grilla Especialidades*/
+  .menu {
+    width: 70%;
+    height: 8rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+    padding-left: 0.1rem; }
+  .menu-1 {
+    height: 8rem;
+    margin-left: 5rem;
+    margin-right: 2rem; }
+  .p-grid-1 {
+    font-size: 0.4rem;
+    margin-left: 1rem; }
+  .almuerzo {
+    width: 70%;
+    height: 8rem;
+    margin-left: 7rem;
+    font-size: 0.7rem;
+    padding-left: 0.01rem; }
+  .almuerzo-1 {
+    height: 8rem;
+    margin-left: 5rem;
+    margin-right: 2rem; }
+  .cena {
+    width: 70%;
+    height: 8rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+    padding-left: 0.1rem; }
+  .cena-1 {
+    height: 8rem;
+    margin-left: 5rem;
+    margin-right: 2rem; }
+  .postre {
+    width: 70%;
+    height: 8rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+    padding-left: 0.1rem; }
+  .postre-1 {
+    height: 8rem;
+    margin-left: 5rem;
+    margin-right: 2rem; }
+  /*Contacto*/
+  .link-menu {
+    font-size: 0.8rem; }
+  .subtitulo {
+    font-size: 1.5rem; }
+  .formularioSubmit {
+    width: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: x-small; }
+  .textArea {
+    margin-left: 5px;
+    margin-right: 5px; } }
+
+/*tablet*/
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /*Eventos*/
+  .p-video {
+    margin-bottom: 1px; }
+  /*Personal*/
+  .p-1 {
+    font-size: 0.8rem;
+    margin-bottom: 50px; }
+  .flex-img {
+    width: 55%;
+    height: 270px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px; } }
+
+/*grilla especialidades*/
+.menu {
+  width: 70%;
+  height: 14rem;
+  margin-left: 9rem;
+  font-size: 1.5rem;
+  padding-left: 0.1rem; }
+
+.menu-1 {
+  margin-left: 5.1rem; }
+
+.almuerzo {
+  width: 70%;
+  height: 14rem;
+  margin-left: 9rem;
+  font-size: 1.1rem;
+  padding-left: 0.1rem; }
+
+.almuerzo-1 {
+  margin-left: 5.1rem; }
+
+.cena {
+  width: 70%;
+  height: 14rem;
+  margin-left: 9rem;
+  font-size: 1.5rem;
+  padding-left: 0.1rem; }
+
+.cena-1 {
+  margin-left: 5.1rem; }
+
+.postre {
+  width: 70%;
+  height: 14rem;
+  margin-left: 9rem;
+  font-size: 1.4rem;
+  padding-left: 0.1rem; }
+
+.postre-1 {
+  margin-left: 5.1rem; }
+
+.p-grid-1 {
+  margin-left: 0.8rem;
+  font-size: 1rem; }
+
+/*PC*/
+@media only screen and (min-width: 1024px) {
+  /*grilla especialidades*/
+  .menu {
+    width: 70%;
+    height: 8rem;
+    margin-left: 9rem;
+    font-size: 2rem;
+    padding-left: 1rem; }
+  .menu-1 {
+    margin-left: 5.1rem; }
+  .almuerzo {
+    width: 70%;
+    height: 8rem;
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    padding-left: 1rem; }
+  .almuerzo-1 {
+    margin-left: 5.1rem; }
+  .cena {
+    width: 70%;
+    height: 8rem;
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    padding-left: 1rem; }
+  .cena-1 {
+    margin-left: 5.1rem; }
+  .postre {
+    width: 70%;
+    height: 8rem;
+    margin-left: 9rem;
+    font-size: 1.8rem;
+    padding-left: 1rem; }
+  .postre-1 {
+    margin-left: 5.1rem; }
+  .p-grid-1 {
+    margin-left: 1rem; } }
+
+.contenedorContacto, .contenedorContactoMail, .contenedorContactoNombre, .contenedorContactoTexto, .textoContacto {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: crimson; }
+
+.contenedorContactoMail {
+  justify-content: space-between; }
+
+.contenedorContactoNombre {
+  justify-content: space-between; }
+
+.contenedorContactoTexto {
+  width: 10rem;
+  padding-right: 118px;
+  padding-top: 20px;
+  padding-bottom: 5px; }
+
+.textoContacto {
+  padding-left: 117px;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  padding-top: 1px; }
+
+.textArea {
+  width: 30rem;
+  height: auto; }
+
+.formularioSubmit {
+  color: crimson;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  padding-top: 4px; }
+
+.contenedorFormulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-right: 20px; }
