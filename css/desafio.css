@@ -136,7 +136,10 @@ ul {
 
 #grid-layout {
   display: grid;
-  grid-template-areas: "menu"  "almuerzo" "cena" "postre";
+  grid-template-areas: "menu" 
+ "almuerzo"
+ "cena"
+ "postre";
   grid-template-columns: 20% 75%;
   grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
   row-gap: -1%; }
@@ -235,6 +238,11 @@ ul {
   align-items: center;
   margin-left: 1rem;
   font-family: 'Charis SIL', serif; }
+  .logoPng{
+    height: 90px;
+    margin-left: 1.5rem;
+     
+  }
 
 #personal {
   text-align: center;
