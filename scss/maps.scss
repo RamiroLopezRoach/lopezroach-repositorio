@@ -1,0 +1,17 @@
+$redes: (
+    "Facebook": darkblue,
+    "Instagram": rgb(168, 43, 168),
+    "Twitter": rgba(20, 219, 233, 0.952),
+);
+
+.logoFacebook {
+  color: map-get($map: $redes, $key: Facebook);  
+}
+
+.logoInstagram {
+    color: map-get($map: $redes, $key: Instagram); 
+}
+
+.logoTwitter {
+    color: map-get($map: $redes, $key: Twitter); 
+}
