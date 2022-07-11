@@ -5,13 +5,13 @@ $redes: (
 );
 
 .logoFacebook {
-  color: map-get($map: $redes, $key: Facebook);  
+    color: map-get($map: $redes, $key: Facebook);
 }
 
 .logoInstagram {
-    color: map-get($map: $redes, $key: Instagram); 
+    color: map-get($map: $redes, $key: Instagram);
 }
 
 .logoTwitter {
-    color: map-get($map: $redes, $key: Twitter); 
+    color: map-get($map: $redes, $key: Twitter);
 }

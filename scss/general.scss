@@ -1,0 +1,903 @@
+  // Anidacion
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: $color-fondo  !important;
+    scroll-behavior: auto;
+  }
+
+  ul {
+    font-size: 10px;
+  }
+
+  .h1 {
+    color: $color-letra-principal;
+    text-align: left;
+    padding: 15px 30px 10px 30px;
+    font-size: 70px;
+    background-color: $color-fondo-cabeza;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .h2 {
+    color: $color-letra-principal;
+    font-size: 40px;
+    text-align: center;
+    padding: 18px 10px;
+    font-family: $fuente1-letra;
+  }
+
+  .formularioSubmit1 {
+    color: $color-letra-principal;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1.2rem;
+    padding-top: 4px;
+  }
+
+
+  .tituloCabecera {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: $color-letra-principal;
+    padding-right: 6.5rem;
+    margin-top: 2.5%;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+    font-family: $fuente1-letra;
+  }
+
+  .h3 {
+    padding: 20px 5px;
+    text-align: center;
+    font-size: xx-large;
+    color: $color-letra-principal;
+    font-family: $fuente1-letra;
+  }
+
+  .h4 {
+    color: $color-letra-principal;
+    font-size: 30px;
+    text-align: center;
+    padding: 18px 40px 18px 10px;
+    font-family: $fuente1-letra;
+  }
+
+  .subtitulo {
+    color: $color-letra-principal;
+    font-size: 30px;
+    text-align: center;
+    padding: 22px 10px;
+    font-family: $fuente1-letra;
+    text-decoration-line: underline;
+  }
+
+  .parrafo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 25px 15px;
+    border: solid 2px black;
+    margin: 5px 10px 5px 10px;
+    background-image: linear-gradient(to left, #e2acac, #eb4141);
+  }
+
+  .titulo {
+    background-color: $color-fondo-cabeza;
+    padding: 2px 5px;
+    margin-top: 1.8%;
+    padding-left: 33.50%;
+    text-align: center;
+    font-size: 45px;
+    color: $color-letra-principal;
+    height: 70px;
+    font-family: $fuente1-letra;
+  }
+
+  .titulo-1 {
+    display: block;
+    margin: auto;
+    background-color: $color-fondo-cabeza;
+    text-align: center;
+    font-size: 3rem;
+    color: $color-letra-principal;
+    height: 2rem;
+    font-family: $fuente1-letra;
+    padding-right: 80px;
+  }
+
+  .titulo-2 {
+    background-color: $color-fondo-cabeza;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 45px;
+    color: $color-letra-principal;
+    height: 70px;
+    font-family: $fuente1-letra;
+  }
+
+  .titulo-3 {
+    display: block;
+    background-color: $color-fondo-cabeza;
+    padding: 2px 5px;
+    margin-top: 1.8%;
+    padding-left: 34%;
+    text-align: center;
+    font-size: 45px;
+    color: $color-letra-principal;
+    height: 70px;
+    font-family: $fuente1-letra;
+  }
+  .titulo-4 {
+    display: block;
+    margin: auto;
+    background-color: $color-fondo-cabeza;
+    text-align: center;
+    font-size: 3rem;
+    padding-right: 120px;
+    color: $color-letra-principal;
+    height: 2rem;
+    font-family: $fuente1-letra;
+  }
+
+  .link-menu {
+    align-items: flex-end;
+    display: inline-flex;
+    font-size: 1.2rem;
+    font-family: $fuente1-letra;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 5px 5px 25px;
+    padding: 1px 0px;
+  }
+
+  .img-restaurante {
+    width: 100%;
+    height: 390px;
+  }
+
+  .img-restaurante-div {
+    width: 100%;
+    height: 390px;
+  }
+
+
+  .parrafo-personal {
+    display: flex;
+  }
+
+  .link-menu2 {
+    align-items: flex-end;
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 5px 5px 25px;
+    padding: 1px 0px;
+  }
+
+  .flex-img {
+    display: flex;
+    padding: 35px 10px;
+    border: 5px;
+    justify-content: center;
+    height: 360px;
+    width: 560px;
+  }
+
+  .flex-img1 {
+    display: flex;
+    padding: 35px 10px;
+    border: 5px;
+    justify-content: center;
+    height: 360px;
+    width: 560px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .p-video {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0px 50px 50px 50px;
+  }
+
+  .p-1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+
+  .video-yt {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .video-yt-border {
+    border: solid black 2px;
+  }
+
+  #grid-layout {
+    display: grid;
+    grid-template-areas:
+      "menu"
+      "almuerzo"
+      "cena"
+      "postre"
+    ;
+    grid-template-columns: 20% 75%;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    row-gap: -1%;
+    margin-right: 100px;
+  }
+
+  .menu {
+    display: inline-flex;
+    grid-area: menu;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 8rem;
+    border: black solid 2px;
+    background-color: rgb(255, 253, 130);
+    margin-left: 9rem;
+    font-size: 2rem;
+    font-family: 'Charis SIL', serif;
+    padding-left: 1rem;
+  }
+
+  .menu-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 2px;
+    background-color: rgb(250, 245, 169);
+    margin-left: 5.1rem;
+    height: 100%;
+  }
+
+  .almuerzo {
+    display: inline-flex;
+    grid-area: almuerzo;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 8rem;
+    border: black solid 2px;
+    background-color: rgb(255, 253, 130);
+    margin-left: 9rem;
+    font-family: 'Charis SIL', serif;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+
+  .almuerzo-1 {
+    border: black solid 2px;
+    background-color: rgb(250, 245, 169);
+    margin-left: 5.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cena {
+    grid-area: cena;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 8rem;
+    border: black solid 2px;
+    background-color: rgb(255, 253, 130);
+    margin-left: 9rem;
+    font-family: 'Charis SIL', serif;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+
+  .cena-1 {
+    border: black solid 2px;
+    background-color: rgb(250, 245, 169);
+    margin-left: 5.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .postre {
+    grid-area: postre;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 8rem;
+    border: black solid 2px;
+    background-color: rgb(255, 253, 130);
+    margin-left: 9rem;
+    font-family: 'Charis SIL', serif;
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+
+  .postre-1 {
+    border: black solid 2px;
+    margin-left: 5.1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 245, 169);
+  }
+
+  .p-grid-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    font-family: 'Charis SIL', serif;
+  }
+
+  .parrafo-div {
+    margin-bottom: 30px;
+  }
+
+  #pie-pagina {
+    background-color: bisque;
+    height: 100%;
+    border: solid gray 1px;
+
+  }
+
+  .titulo-pie {
+    text-align: center;
+    padding-top: 20px;
+    color: $color-letra-principal;
+    font-family: $fuente1-letra;
+    font-size: 1.4rem;
+
+  }
+
+  .pie-contenedor {
+    display: inline-flex;
+    background-color: bisque;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+  }
+
+  .bi-facebook {
+    display: inline;
+    height: 2.2rem;
+
+    padding-top: 40px;
+    margin-bottom: 1px;
+  }
+
+  .bi-instagram {
+    display: inline;
+    height: 2.2rem;
+
+    padding-top: 40px;
+    margin-bottom: 1px;
+  }
+
+  .bi-twitter {
+    display: inline;
+    height: 2.2rem;
+
+    padding-top: 40px;
+    margin-bottom: 1px;
+  }
+
+  .contenedorFormulario {
+    padding-bottom: 25px;
+  }
+
+  .logoContainer {
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: $color-fondo-cabeza;
+  }
+
+  .logoImg {
+    height: 72px;
+    width: 72px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 3rem;
+  }
+
+  #personal {
+    text-align: center;
+    background-color: $color-fondo;
+    color: $color-letra-principal;
+    font-size: 60px;
+    font-family: $fuente1-letra;
+  }
+
+  /*RESPONSIVE*/
+
+  /*celular*/
+  @media only screen and (max-width: 480px) {
+
+    /*Inicio*/
+    .h1 {
+      font-size: 3rem;
+    }
+
+    .h2 {
+      font-size: 2rem;
+    }
+
+    .h3 {
+      margin-top: 20px;
+      padding-bottom: 5px;
+    }
+
+    .logoContainer {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+    }
+
+    .tituloCabecera {
+      display: block;
+      margin: auto;
+      text-align: center;
+      color: $color-letra-principal;
+      padding-left: 0px;
+      padding-right: 60px;
+      margin-top: 2.5%;
+      margin-bottom: 1px;
+      font-size: 1.8rem;
+      font-family: $fuente1-letra;
+    }
+
+    .logoImg {
+      margin-left: 1.8rem;
+    }
+
+    .img-restaurante {
+      width: 100%;
+    }
+
+    .img-restaurante-div {
+      width: 100%;
+      height: 360px;
+    }
+
+    /*Personal*/
+    .p-1 {
+      font-size: 0.55rem;
+    }
+
+    .flex-img {
+      display: block;
+      margin: auto;
+      width: 200px;
+      height: 170px;
+    }
+
+    .flex-img1 {
+      display: block;
+      margin: auto;
+      width: 200px;
+      height: 170px;
+      margin-bottom: 20px;
+      border: 5px;
+    }
+
+    .h4 {
+      padding: 18px 5px 18px 10px;
+      font-size: 23px;
+    }
+
+    .flex-container {
+      display: inline-block;
+      justify-content: center;
+      width: 75%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 25px;
+      margin-right: 5px;
+    }
+
+    /*Eventos*/
+    .video-yt {
+      margin: auto;
+      width: 55%;
+      
+    }
+
+    .p-video {
+      font-size: 0.8rem;
+      margin-bottom: 40px;
+    }
+
+    .video-yt-border {
+      border: solid black 0px;
+    }
+
+    .titulo-4 {
+      display: block;
+      margin: auto;
+      padding: 2px 5px;
+      margin-top: 1.5%;
+      padding-right: 10%;
+      font-size: 40px;
+      color: $color-letra-principal;
+      font-size: $fuente1-letra;
+      height: 65px;
+    }
+
+    /*Grilla Especialidades*/
+    #grid-layout {
+      justify-content: flex-end;
+      padding-right: 30px;
+      padding-left: 8px;
+      
+    }
+    .menu {
+      width: 70%;
+      height: 8rem;
+      margin-left: 20px;
+      font-size: 1rem;
+      padding-left: 0px;
+      padding-right: 200px;
+    }
+
+    .menu-1 {
+      height: 8rem;
+      width: 12rem;
+      margin-left: 4rem;
+      margin-right: 2rem;
+    }
+
+    .p-grid-1 {
+      font-size: 0.50rem;
+      margin-left: 1rem;
+    }
+
+    .almuerzo {
+      width: 70%;
+      height: 8rem;
+      margin-left: 20px;
+      font-size: 1rem;
+      padding-left: 0px;
+      padding-right: 190px;
+    }
+
+    .almuerzo-1 {
+      height: 8rem;
+      width: 12rem;
+      margin-left: 4rem;
+      margin-right: 2rem;
+    }
+
+    .cena {
+      width: 70%;
+      height: 8rem;
+      margin-left: 20px;
+      font-size: 1rem;
+      padding-left: 0px;
+      padding-right: 190px;
+    }
+
+    .cena-1 {
+      height: 8rem;
+      width: 12rem;
+      margin-left: 4rem;
+      margin-right: 2rem;
+    }
+
+    .postre {
+      width: 70%;
+      height: 8rem;
+      margin-left: 20px;
+      font-size: 1rem;
+      padding-left: 0px;
+      padding-right: 190px;
+    }
+
+    .postre-1 {
+      height: 8rem;
+      width: 12rem;
+      margin-left: 4rem;
+      margin-right: 2rem;
+    }
+    .p-grid {
+      padding-left: 70px;
+    }
+
+    /*Especialidades*/
+    .titulo-1 {
+      display: block;
+      margin: auto;
+      padding-left: 18px;
+      padding-right: 0px;
+      font-size: 1.65rem;
+      text-align: center;
+      margin-left: 5%;
+    }
+
+    .logoImg {
+      height: 55px;
+      width: 55px;
+    }
+
+    /*Contacto*/
+    .link-menu {
+      font-size: 1rem;
+    }
+
+    .titulo {
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 48px;
+      margin-top: 8%;
+      margin-bottom: 1px;
+      font-size: 2.1rem;
+    }
+
+    .titulo-3 {
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding-left: 0%;
+      padding-right: 50px;
+      padding-top: 10px;
+      margin-top: 8%;
+      margin-bottom: 1px;
+      font-size: 2.1rem;
+    }
+
+    .subtitulo {
+      font-size: 1.5rem;
+    }
+
+    .formularioSubmit1 {
+      color: $color-letra-principal;
+      font-size: 1rem;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 1.5rem;
+      padding-top: 4px;
+    }
+
+    .textArea {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .logoImg {
+      height: 55px;
+      width: 55px;
+      margin-left: 1.2rem;
+    }
+  }
+
+  /*tablet*/
+
+  @media only screen and (min-width: 481px) and (max-width:1023px) {
+
+    /*Inicio*/
+    .tituloCabecera {
+      padding-left: 5px;
+      font-size: 2.9rem;
+    }
+
+    /*Eventos*/
+    .p-video {
+      margin-bottom: 1px;
+    }
+
+    .titulo-4 {
+      display: block;
+      margin: auto;
+      padding: 2px 5px;
+      margin-top: 1.5%;
+      padding-right: 10%;
+      font-size: 40px;
+      color: $color-letra-principal;
+      height: 65px;
+    }
+
+    /*Personal*/
+    .p-1 {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    .h4 {
+      padding: 18px 5px 18px 10px;
+    }
+
+    .flex-container {
+      display: inline-block;
+      margin: auto;
+      justify-content: center;
+      width: 80%;
+      margin-left: 75px;
+
+
+    }
+
+    .flex-img {
+      display: block;
+      margin: auto;
+      width: 420px;
+      height: 360px;
+
+    }
+
+    .flex-img1 {
+      display: block;
+      margin: auto;
+      padding: 35px 1px;
+      border: 1px;
+      height: 360px;
+      width: 420px;
+    }
+
+
+    /*grilla especialidades*/
+
+    .menu {
+      width: 70%;
+      height: 14rem;
+      margin-left: 8rem;
+      font-size: 1.1rem;
+      padding-left: 0.1rem;
+    }
+
+    .menu-1 {
+      margin-left: 5.1rem;
+      height: 100%;
+
+    }
+
+    .almuerzo {
+      width: 70%;
+      height: 14rem;
+      margin-left: 8rem;
+      font-size: 1.1rem;
+      padding-left: 0.1rem;
+    }
+
+    .almuerzo-1 {
+      margin-left: 5.1rem;
+    }
+
+    .cena {
+      width: 70%;
+      height: 14rem;
+      margin-left: 8rem;
+      font-size: 1.1rem;
+      padding-left: 0.1rem;
+    }
+
+    .cena-1 {
+      margin-left: 5.1rem;
+    }
+
+    .postre {
+      width: 70%;
+      height: 14rem;
+      margin-left: 8rem;
+      font-size: 1.1rem;
+      padding-left: 0.1rem;
+    }
+
+    .postre-1 {
+      margin-left: 5.1rem;
+    }
+
+    .p-grid-1 {
+      margin-left: 0.8rem;
+      font-size: 80%;
+    }
+
+    /*Especialidades*/
+
+    .logoImg {
+      height: 65px;
+      width: 65px;
+    }
+    .titulo-1 {
+      font-size: 2.5rem;
+    }
+
+    /*Contacto*/
+    .titulo {
+      display: block;
+      margin: auto;
+      padding: 2px 5px;
+      margin-top: 1.5%;
+      padding-right: 10%;
+      font-size: 40px;
+      color: $color-letra-principal;
+      height: 65px;
+    }
+
+    .titulo-3 {
+      display: block;
+      margin: auto;
+      padding: 2px 5px;
+      margin-top: 1.5%;
+      padding-right: 10%;
+      font-size: 40px;
+      color: $color-letra-principal;
+      height: 65px;
+    }
+  }
+
+  /*PC*/
+  @media only screen and (min-width: 1024px) {
+
+    /*grilla especialidades*/
+    .menu {
+      width: 70%;
+      height: 8rem;
+      margin-left: 9rem;
+      font-size: 2rem;
+      padding-left: 1rem;
+    }
+
+    .menu-1 {
+      margin-left: 5.1rem;
+    }
+
+    .almuerzo {
+      width: 70%;
+      height: 8rem;
+      margin-left: 9rem;
+      font-size: 1.8rem;
+      padding-left: 1rem;
+    }
+
+    .almuerzo-1 {
+      margin-left: 5.1rem;
+    }
+
+    .cena {
+      width: 70%;
+      height: 8rem;
+      margin-left: 9rem;
+      font-size: 1.8rem;
+      padding-left: 1rem;
+    }
+
+    .cena-1 {
+      margin-left: 5.1rem;
+    }
+
+    .postre {
+      width: 70%;
+      height: 8rem;
+      margin-left: 9rem;
+      font-size: 1.8rem;
+      padding-left: 1rem;
+    }
+
+    .postre-1 {
+      margin-left: 5.1rem;
+    }
+
+    .p-grid-1 {
+      margin-left: 1rem;
+    }
+
+  }

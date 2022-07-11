@@ -19,9 +19,29 @@ ul {
 
 .h2 {
   color: crimson;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   padding: 18px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.formularioSubmit1 {
+  color: crimson;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 1.2rem;
+  padding-top: 4px; }
+
+.tituloCabecera {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: crimson;
+  padding-right: 6.5rem;
+  margin-top: 2.5%;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
 
 .h3 {
@@ -35,7 +55,7 @@ ul {
   color: crimson;
   font-size: 30px;
   text-align: center;
-  padding: 18px 10px;
+  padding: 18px 40px 18px 10px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
 
 .subtitulo {
@@ -51,16 +71,29 @@ ul {
   padding: 25px 15px;
   border: solid 2px black;
   margin: 5px 10px 5px 10px;
-  background-image: linear-gradient(to left, #cecece, #b12d2d); }
+  background-image: linear-gradient(to left, #e2acac, #eb4141); }
 
 .titulo {
   background-color: bisque;
   padding: 2px 5px;
+  margin-top: 1.8%;
+  padding-left: 33.50%;
   text-align: center;
   font-size: 45px;
   color: crimson;
   height: 70px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.titulo-1 {
+  display: block;
+  margin: auto;
+  background-color: bisque;
+  text-align: center;
+  font-size: 3rem;
+  color: crimson;
+  height: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-right: 80px; }
 
 .titulo-2 {
   background-color: bisque;
@@ -71,9 +104,34 @@ ul {
   height: 70px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
 
+.titulo-3 {
+  display: block;
+  background-color: bisque;
+  padding: 2px 5px;
+  margin-top: 1.8%;
+  padding-left: 34%;
+  text-align: center;
+  font-size: 45px;
+  color: crimson;
+  height: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+.titulo-4 {
+  display: block;
+  margin: auto;
+  background-color: bisque;
+  text-align: center;
+  font-size: 3rem;
+  padding-right: 120px;
+  color: crimson;
+  height: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
 .link-menu {
   align-items: flex-end;
   display: inline-flex;
+  font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-decoration: none;
   list-style: none;
   margin: 5px 5px 5px 25px;
@@ -81,15 +139,11 @@ ul {
 
 .img-restaurante {
   width: 100%;
-  height: 360px; }
+  height: 390px; }
 
 .img-restaurante-div {
   width: 100%;
-  height: 360px; }
-
-.img-restaurante-div:hover {
-  height: 350px;
-  border: solid 4px black; }
+  height: 390px; }
 
 .parrafo-personal {
   display: flex; }
@@ -104,7 +158,15 @@ ul {
 
 .flex-img {
   display: flex;
-  padding: 15px 10px;
+  padding: 35px 10px;
+  border: 5px;
+  justify-content: center;
+  height: 360px;
+  width: 560px; }
+
+.flex-img1 {
+  display: flex;
+  padding: 35px 10px;
   border: 5px;
   justify-content: center;
   height: 360px;
@@ -122,7 +184,8 @@ ul {
 .p-1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
-  margin: 10px; }
+  margin-left: 75px;
+  margin-right: 75px; }
 
 .video-yt {
   display: flex;
@@ -134,13 +197,11 @@ ul {
 
 #grid-layout {
   display: grid;
-  grid-template-areas: "menu" 
- "almuerzo"
- "cena"
- "postre";
+  grid-template-areas: "menu" "almuerzo" "cena" "postre";
   grid-template-columns: 20% 75%;
   grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
-  row-gap: -1%; }
+  row-gap: -1%;
+  margin-right: 100px; }
 
 .menu {
   display: inline-flex;
@@ -157,12 +218,13 @@ ul {
   padding-left: 1rem; }
 
 .menu-1 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border: black solid 2px;
   background-color: #faf5a9;
   margin-left: 5.1rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center; }
+  height: 100%; }
 
 .almuerzo {
   display: inline-flex;
@@ -277,6 +339,24 @@ ul {
   padding-top: 40px;
   margin-bottom: 1px; }
 
+.contenedorFormulario {
+  padding-bottom: 25px; }
+
+.logoContainer {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: bisque; }
+
+.logoImg {
+  height: 72px;
+  width: 72px;
+  padding: 10px 0px 10px 0px;
+  margin-left: 3rem; }
+
 #personal {
   text-align: center;
   background-color: beige;
@@ -292,148 +372,290 @@ ul {
     font-size: 3rem; }
   .h2 {
     font-size: 2rem; }
+  .h3 {
+    margin-top: 20px;
+    padding-bottom: 5px; }
+  .logoContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%; }
+  .tituloCabecera {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: crimson;
+    padding-left: 0px;
+    padding-right: 60px;
+    margin-top: 2.5%;
+    margin-bottom: 1px;
+    font-size: 1.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+  .logoImg {
+    margin-left: 1.8rem; }
   .img-restaurante {
     width: 100%; }
   .img-restaurante-div {
     width: 100%;
     height: 360px; }
-  .img-restaurante-div:hover {
-    height: 350px;
-    width: 100%;
-    border: solid 0px black; }
   /*Personal*/
   .p-1 {
-    font-size: 0.5rem; }
+    font-size: 0.55rem; }
   .flex-img {
-    width: 45%;
-    height: 190px; }
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 170px; }
+  .flex-img1 {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 170px;
+    margin-bottom: 20px;
+    border: 5px; }
+  .h4 {
+    padding: 18px 5px 18px 10px;
+    font-size: 23px; }
+  .flex-container {
+    display: inline-block;
+    justify-content: center;
+    width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 25px;
+    margin-right: 5px; }
   /*Eventos*/
   .video-yt {
-    width: 55%;
-    margin-left: 25px; }
+    margin: auto;
+    width: 55%; }
   .p-video {
     font-size: 0.8rem;
     margin-bottom: 40px; }
   .video-yt-border {
     border: solid black 0px; }
+  .titulo-4 {
+    display: block;
+    margin: auto;
+    padding: 2px 5px;
+    margin-top: 1.5%;
+    padding-right: 10%;
+    font-size: 40px;
+    color: crimson;
+    font-size: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    height: 65px; }
   /*Grilla Especialidades*/
+  #grid-layout {
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-left: 8px; }
   .menu {
     width: 70%;
     height: 8rem;
-    margin-left: 7rem;
+    margin-left: 20px;
     font-size: 1rem;
-    padding-left: 0.1rem; }
+    padding-left: 0px;
+    padding-right: 200px; }
   .menu-1 {
     height: 8rem;
-    margin-left: 5rem;
+    width: 12rem;
+    margin-left: 4rem;
     margin-right: 2rem; }
   .p-grid-1 {
-    font-size: 0.4rem;
+    font-size: 0.50rem;
     margin-left: 1rem; }
   .almuerzo {
     width: 70%;
     height: 8rem;
-    margin-left: 7rem;
-    font-size: 0.7rem;
-    padding-left: 0.01rem; }
+    margin-left: 20px;
+    font-size: 1rem;
+    padding-left: 0px;
+    padding-right: 190px; }
   .almuerzo-1 {
     height: 8rem;
-    margin-left: 5rem;
+    width: 12rem;
+    margin-left: 4rem;
     margin-right: 2rem; }
   .cena {
     width: 70%;
     height: 8rem;
-    margin-left: 7rem;
+    margin-left: 20px;
     font-size: 1rem;
-    padding-left: 0.1rem; }
+    padding-left: 0px;
+    padding-right: 190px; }
   .cena-1 {
     height: 8rem;
-    margin-left: 5rem;
+    width: 12rem;
+    margin-left: 4rem;
     margin-right: 2rem; }
   .postre {
     width: 70%;
     height: 8rem;
-    margin-left: 7rem;
+    margin-left: 20px;
     font-size: 1rem;
-    padding-left: 0.1rem; }
+    padding-left: 0px;
+    padding-right: 190px; }
   .postre-1 {
     height: 8rem;
-    margin-left: 5rem;
+    width: 12rem;
+    margin-left: 4rem;
     margin-right: 2rem; }
+  .p-grid {
+    padding-left: 70px; }
+  /*Especialidades*/
+  .titulo-1 {
+    display: block;
+    margin: auto;
+    padding-left: 18px;
+    padding-right: 0px;
+    font-size: 1.65rem;
+    text-align: center;
+    margin-left: 5%; }
+  .logoImg {
+    height: 55px;
+    width: 55px; }
   /*Contacto*/
   .link-menu {
-    font-size: 0.8rem; }
+    font-size: 1rem; }
+  .titulo {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 48px;
+    margin-top: 8%;
+    margin-bottom: 1px;
+    font-size: 2.1rem; }
+  .titulo-3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin-top: 8%;
+    margin-bottom: 1px;
+    font-size: 2.1rem; }
   .subtitulo {
     font-size: 1.5rem; }
-  .formularioSubmit {
-    width: 50%;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-size: x-small; }
+  .formularioSubmit1 {
+    color: crimson;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1.5rem;
+    padding-top: 4px; }
   .textArea {
     margin-left: 5px;
-    margin-right: 5px; } }
+    margin-right: 5px; }
+  .logoImg {
+    height: 55px;
+    width: 55px;
+    margin-left: 1.2rem; } }
 
 /*tablet*/
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
+  /*Inicio*/
+  .tituloCabecera {
+    padding-left: 5px;
+    font-size: 2.9rem; }
   /*Eventos*/
   .p-video {
     margin-bottom: 1px; }
+  .titulo-4 {
+    display: block;
+    margin: auto;
+    padding: 2px 5px;
+    margin-top: 1.5%;
+    padding-right: 10%;
+    font-size: 40px;
+    color: crimson;
+    height: 65px; }
   /*Personal*/
   .p-1 {
-    font-size: 0.7rem;
-    margin-bottom: 50px; }
+    font-size: 0.9rem;
+    margin-bottom: 20px; }
+  .h4 {
+    padding: 18px 5px 18px 10px; }
+  .flex-container {
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    margin-left: 75px; }
   .flex-img {
-    width: 55%;
-    height: 270px;
-    margin-bottom: 50px;
-    margin-left: 5px;
-    margin-right: 5px; } }
-
-/*grilla especialidades*/
-.menu {
-  width: 70%;
-  height: 14rem;
-  margin-left: 9rem;
-  font-size: 1.5rem;
-  padding-left: 0.1rem; }
-
-.menu-1 {
-  margin-left: 5.1rem; }
-
-.almuerzo {
-  width: 70%;
-  height: 14rem;
-  margin-left: 9rem;
-  font-size: 1.1rem;
-  padding-left: 0.1rem; }
-
-.almuerzo-1 {
-  margin-left: 5.1rem; }
-
-.cena {
-  width: 70%;
-  height: 14rem;
-  margin-left: 9rem;
-  font-size: 1.5rem;
-  padding-left: 0.1rem; }
-
-.cena-1 {
-  margin-left: 5.1rem; }
-
-.postre {
-  width: 70%;
-  height: 14rem;
-  margin-left: 9rem;
-  font-size: 1.4rem;
-  padding-left: 0.1rem; }
-
-.postre-1 {
-  margin-left: 5.1rem; }
-
-.p-grid-1 {
-  margin-left: 0.8rem;
-  font-size: 1rem; }
+    display: block;
+    margin: auto;
+    width: 420px;
+    height: 360px; }
+  .flex-img1 {
+    display: block;
+    margin: auto;
+    padding: 35px 1px;
+    border: 1px;
+    height: 360px;
+    width: 420px; }
+  /*grilla especialidades*/
+  .menu {
+    width: 70%;
+    height: 14rem;
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    padding-left: 0.1rem; }
+  .menu-1 {
+    margin-left: 5.1rem;
+    height: 100%; }
+  .almuerzo {
+    width: 70%;
+    height: 14rem;
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    padding-left: 0.1rem; }
+  .almuerzo-1 {
+    margin-left: 5.1rem; }
+  .cena {
+    width: 70%;
+    height: 14rem;
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    padding-left: 0.1rem; }
+  .cena-1 {
+    margin-left: 5.1rem; }
+  .postre {
+    width: 70%;
+    height: 14rem;
+    margin-left: 8rem;
+    font-size: 1.1rem;
+    padding-left: 0.1rem; }
+  .postre-1 {
+    margin-left: 5.1rem; }
+  .p-grid-1 {
+    margin-left: 0.8rem;
+    font-size: 80%; }
+  /*Especialidades*/
+  .logoImg {
+    height: 65px;
+    width: 65px; }
+  .titulo-1 {
+    font-size: 2.5rem; }
+  /*Contacto*/
+  .titulo {
+    display: block;
+    margin: auto;
+    padding: 2px 5px;
+    margin-top: 1.5%;
+    padding-right: 10%;
+    font-size: 40px;
+    color: crimson;
+    height: 65px; }
+  .titulo-3 {
+    display: block;
+    margin: auto;
+    padding: 2px 5px;
+    margin-top: 1.5%;
+    padding-right: 10%;
+    font-size: 40px;
+    color: crimson;
+    height: 65px; } }
 
 /*PC*/
 @media only screen and (min-width: 1024px) {
@@ -482,14 +704,6 @@ ul {
 .logoTwitter {
   color: rgba(20, 219, 233, 0.952); }
 
-.letraPersonal {
-  font-size: 0.9rem;
-  font-weight: 100; }
-
-.letraEventos {
-  font-size: 0.9rem;
-  font-weight: 150; }
-
 .contenedorContacto, .contenedorContactoMail, .contenedorContactoNombre, .contenedorContactoTexto, .textoContacto {
   display: flex;
   justify-content: center;
@@ -531,6 +745,5 @@ ul {
 .contenedorFormulario {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
   margin-top: 30px;
   padding-right: 20px; }

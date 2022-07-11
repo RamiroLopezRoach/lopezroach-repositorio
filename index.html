@@ -5,52 +5,68 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/estilos.css">
-  <title>Contacto</title>
+  <!-- SEO -->
+  <meta name="description" content="restaurante mejor comida de zona norte">
+  <meta name="keywords" content="restaurante comida delivery eventos atencion turismo">
+  <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>Inicio</title>
 </head>
 
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
   <header>
-    <div class="logoContainer">
-      <img class="logoImg" src="../img/pngegg.png" alt="logo">
-      <h1 class="titulo-3">Contacto</h1>
+    <nav>
+      <div class="logoContainer">
+        <img class="logoImg" src="./img/pngegg.png" alt="logo">
+        <h1 class="tituloCabecera">Restaurante</h1>
+      </div>
+      <div>
+        <hr>
+        <a class="link-menu" href="/paginas/personal.html">
+          <li>Personal</li>
+        </a>
+        <a class="link-menu" href="/paginas/eventos.html">
+          <li>Eventos</li>
+        </a>
+        <a class="link-menu" href="/paginas/especialidades.html">
+          <li>Especialidades</li>
+        </a>
+        <a class="link-menu" href="/paginas/contacto.html">
+          <li>Contacto</li>
+        </a>
+      </div>
+      <hr>
+      <h2 class="h2">La italiana</h2>
+    </nav>
+    <div class="img-restaurante-div">
+      <img class="img-restaurante" src="./img/restaurante-nuevo.jpg" alt="foto del restaurante en cuestion">
     </div>
-    <hr>
-    <a class="link-menu" href="/index.html">
-      <li>Inicio</li>
-    </a>
-    <a class="link-menu" href="./personal.html">
-      <li>Personal</li>
-    </a>
-    <a class="link-menu" href="./eventos.html">
-      <li>Eventos</li>
-    </a>
-    <a class="link-menu" href="./especialidades.html">
-      <li>Especialidades</li>
-    </a>
-    <hr>
-    <h2 class="subtitulo">Hace tu reserva.</h2>
-    <div class="contenedorContacto">
-      <form action="" method="get" enctype="text/plain">
-        <label class="contenedorContactoNombre" for="UserName">Titular de la reserva</label>
-        <input type="text" name="UserName" id="UserName">
-        <label class="contenedorContactoMail" for="usermail">Mail de contacto</label>
-        <input type="email" name="usermail" id="usermail" required="usermail">
+
+    <h3 class="h3">Sobre nosotros</h3>
+
+    <div class="parrafo-div">
+      <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur suscipit ut illo, quos odio
+        magni odit? Nam eius dignissimos accusamus quae voluptatum distinctio suscipit quidem repudiandae sed
+        repellendus, culpa enim nulla praesentium ut velit, corrupti eligendi ab doloribus quibusdam odio atque,
+        voluptas possimus! Hic recusandae ullam sequi architecto est itaque ipsum sint, aliquid optio reiciendis
+        temporibus consectetur nobis at ea, esse cumque alias numquam dicta culpa aliquam minus obcaecati. Aut illo
+        dignissimos nisi voluptates iure quae rem consectetur quisquam, rerum assumenda et optio quos recusandae ea
+        commodi earum quibusdam ipsam! Delectus velit nisi vero vel esse natus, omnis sed, veritatis ex alias dolore
+        ipsum non nemo maiores reiciendis accusantium nesciunt! Eum quod quibusdam fugiat molestias, sed, fuga,
+        consectetur vitae culpa incidunt ullam molestiae quaerat iste assumenda consequatur neque temporibus nemo nisi
+        eius! Quaerat cupiditate et possimus voluptatibus saepe accusamus harum quasi, itaque natus ipsa iusto repellat
+        optio quia dolore asperiores odio quibusdam amet ullam qui, doloribus at cum consequatur ad ducimus. Dolorum
+        libero expedita nemo perferendis fugiat odit, voluptatibus, quo amet minima exercitationem magni temporibus
+        autem, error animi accusantium incidunt maxime excepturi facilis ab inventore molestias. Voluptate dolorum
+        doloribus et fuga maxime facilis minima odit numquam, nam corporis fugit atque.</p>
     </div>
-    <div class="contenedorContacto">
-      <label class="contenedorContactoTexto" for="usertext">
-        <p class="textoContacto">Especificaciones</p>
-    </div>
-    <div class="contenedorContacto">
-      <textarea class="textArea" name="usertext" cols="30" rows="10" name="usertext"></textarea>
-    </div>
-    <div class="contenedorFormulario">
-      <input class="formularioSubmit1" type="submit" value="Enviar Reserva">
-      <input class="formularioSubmit1" type="reset" value="Limpiar">
-    </div>
+
   </header>
   <footer id="pie-pagina">
-    <h3 class="titulo-pie">Nuestras Redes!</h3>
+    <h4 class="titulo-pie">Nuestras Redes!</h4>
     <div class="pie-contenedor">
       <svg xmlns="http://www.w3.org/2000/svg" width="100" height="20" fill="currentColor"
         class="bi bi-facebook logoFacebook" viewBox="0 0 16 16">
@@ -67,6 +83,7 @@
         <path
           d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
       </svg>
+
     </div>
   </footer>
 
