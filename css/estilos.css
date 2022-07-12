@@ -129,13 +129,29 @@ ul {
 
 .link-menu {
   align-items: flex-end;
-  display: inline-flex;
+  display: inline-block;
+  color: #1b1a1a;
   font-size: 1.2rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 800;
   text-decoration: none;
   list-style: none;
   margin: 5px 5px 5px 25px;
-  padding: 1px 0px; }
+  padding: 1px 0px;
+  position: relative; }
+
+.link-menu::before {
+  content: "";
+  height: 2.8px;
+  width: 0%;
+  background: #302c2c;
+  position: absolute;
+  left: 0;
+  bottom: -0.9px;
+  transition: 0.6s ease-out; }
+
+.link-menu:hover::before {
+  width: 100%; }
 
 .img-restaurante {
   width: 100%;
@@ -219,7 +235,6 @@ ul {
 
 .menu-1 {
   display: inline-flex;
-  justify-content: center;
   align-items: center;
   border: black solid 2px;
   background-color: #faf5a9;
@@ -245,7 +260,6 @@ ul {
   background-color: #faf5a9;
   margin-left: 5.1rem;
   display: inline-flex;
-  justify-content: center;
   align-items: center; }
 
 .cena {
@@ -267,7 +281,6 @@ ul {
   background-color: #faf5a9;
   margin-left: 5.1rem;
   display: inline-flex;
-  justify-content: center;
   align-items: center; }
 
 .postre {
@@ -288,7 +301,6 @@ ul {
   border: black solid 2px;
   margin-left: 5.1rem;
   display: inline-flex;
-  justify-content: center;
   align-items: center;
   background-color: #faf5a9; }
 
@@ -693,7 +705,8 @@ ul {
   .postre-1 {
     margin-left: 5.1rem; }
   .p-grid-1 {
-    margin-left: 1rem; } }
+    margin-left: 1rem;
+    font-size: 0.95rem; } }
 
 .logoFacebook {
   color: darkblue; }
